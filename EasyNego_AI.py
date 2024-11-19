@@ -3,7 +3,7 @@ import os
 os.system("pip install streamlit")
 os.system("pip install streamlit-elements streamlit-option-menu")
 os.system("pip install pandas")
-os.system("pip install plotly-express")
+os.system("pip install plotly_express")
 import streamlit as st
 import pandas as pd
 import plotly.express as px
