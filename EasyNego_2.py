@@ -1,10 +1,4 @@
 import os
-
-os.system("pip install streamlit")
-os.system("pip install streamlit-elements streamlit-option-menu")
-os.system("pip install pandas")
-os.system("pip install matplotlib")
-
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
