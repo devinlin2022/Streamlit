@@ -1,9 +1,11 @@
 import os
-
+import time
 os.system("pip install streamlit")
 os.system("pip install streamlit-elements streamlit-option-menu")
 os.system("pip install pandas")
 os.system("pip install plotly_express")
+os.system("pip install plotly")
+time.sleep(2)
 import streamlit as st
 import pandas as pd
 import plotly.express as px
